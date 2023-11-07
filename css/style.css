@@ -1,0 +1,168 @@
+body {
+    margin: 0 auto;
+    max-width: 1920px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.section__header {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.section__suptitle {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    color: #333;
+}
+
+.section__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.section__title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 30px auto;
+    background-color: #f38181;
+}
+
+.section__text {
+    color: #999;
+    font-size: 15px;
+}
+
+.team {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__team {
+    width: calc(33.33% - 10px);
+    position: relative;
+    margin-right: 10px;
+}
+
+.about__team:last-child {
+    margin-right: 0;
+}
+
+.about__img {
+    background: linear-gradient(to bottom, #f38181, #fce38a);
+    transition: transform 0.2s linear;
+    overflow: hidden;
+}
+
+.about__team:hover .about__img {
+    transform: translate3d(-10px, -10px, 0);
+}
+
+.about__team:hover .about__img img {
+    opacity: 0.1;
+}
+
+.about__img img {
+    display: block;
+    transition: opacity 0.1s linear;
+}
+
+.card__name {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    margin-top: 40px;
+}
+
+.card__prof {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section--gray {
+    background-color: #f8f8f8;
+}
+
+.block img {
+    max-width: 100%;
+    padding-bottom: 95px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.photo {
+    padding-left: 240px;
+}
+
+.text {
+    padding-left: 20px;
+    width: 685px;
+    font-style: italic;
+    color: #333;
+}
+
+.joshua {
+    font-family: 'Kaushan Script';
+    position: relative;
+}
+
+.joshua::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    position: absolute;
+    top: 50%;
+    left: -70px;
+    transform: translateY(-50%);
+}
+
+.text {
+    padding-left: 60px;
+    margin: 0;
+}
