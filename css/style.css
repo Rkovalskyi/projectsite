@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about__team {
-    width: calc(33.33% - 10px);
+    width: 380px;
     position: relative;
     margin-right: 10px;
 }
